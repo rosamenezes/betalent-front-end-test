@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# TESTE FRONT-END BE-TALENT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um teste técnico para a empresa BeTalent. O objetivo é consumir uma API de funcionários e exibir os dados na tela com a possibilidade de aplicar filtros.
 
-Currently, two official plugins are available:
+## 🚀 Começando
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-## Expanding the ESLint configuration
+Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 📋 Pré-requisitos
 
-- Configure the top-level `parserOptions` property like this:
+Voce precisara ter instalado na sua maquina GIT, NODE.JS E YARN para rodar esse projeto.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### 🔧 Instalação
+
+Clone o projeto para sua maquina:
+
+```
+git clone https://github.com/rosamenezes/betalent-front-end-test.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Entre na raiz do projeto e instale as dependencias:
+```
+npm install
+```
+
+Rode a API simulada json-server:
+```
+yarn json-server src/json-server/db.json
+```
+
+Em seguida rode o projeto locamente com:
+```
+npm run dev
+```
+
+
+## 🛠️ Construído com
+
+Ferramentas e frameworks utilizados:
+
+* [React](https://react.dev/) 
+* [Vite](https://vitejs.dev/)
+* [Node](https://nodejs.org/pt)
+* [Axios](https://axios-http.com/ptbr/docs/intro)
+* [Styled Components](https://styled-components.com/)
+ 
+
