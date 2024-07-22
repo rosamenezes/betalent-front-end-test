@@ -39,7 +39,8 @@ npm run dev
 
 Ferramentas e frameworks utilizados:
 
-* [React](https://react.dev/) 
+* [React](https://react.dev/)
+* [TypeScript](https://www.typescriptlang.org/) 
 * [Vite](https://vitejs.dev/)
 * [Node](https://nodejs.org/pt)
 * [Axios](https://axios-http.com/ptbr/docs/intro)
